@@ -10,6 +10,11 @@ public class Main {
 		
 		System.out.println("LIST OF VIRTUAL CATS:");
 		
+		Tom.GiveLoveToCat(2);
+		Levi.GiveLoveToCat(3);
+		Cheshire.GiveLoveToCat();
+		Bastian.GiveLoveToCat(1);
+		
 		System.out.println(Tom.InfoKitties());
 		System.out.println(Levi.InfoKitties());
 		System.out.println(Cheshire.InfoKitties());
