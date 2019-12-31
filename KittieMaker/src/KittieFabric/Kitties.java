@@ -17,6 +17,7 @@ public class Kitties {
 		this.catColor = catColor;
 		this.eyeColor = eyeColor;
 		this.favouriteFood = favouriteFood;
+		this.catMood = 6;
 		NumberOfCats++;
 	}
 	
@@ -25,6 +26,7 @@ public class Kitties {
 		this.catColor = "Blue";
 		this.eyeColor = "Magic GreenBlue";
 		this.favouriteFood = "Worms";
+		this.catMood = 9;
 		NumberOfCats++;
 	}
 
@@ -33,6 +35,7 @@ public class Kitties {
 		this.catColor = "White";
 		this.eyeColor = "Green";
 		this.favouriteFood = "Pizza";
+		this.catMood = 7;
 		NumberOfCats++;
 	}
 	
@@ -49,7 +52,7 @@ public class Kitties {
 	}
 	
 	public String InfoKitties() {
-		return "Is a " + this.catRace + " cat " + "with " + this.catColor + " hair," + this.eyeColor + " color eyes, and his favourite food is " + this.favouriteFood;
+		return "Is a " + this.catRace + " cat " + "with " + this.catColor + " hair," + this.eyeColor + " color eyes, and his favourite food is " + this.favouriteFood + ",and his mood is: " + this.catMood;
 	}
 	
 	
